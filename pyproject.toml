@@ -1,0 +1,13 @@
+[build-system]
+requires = [ "poetry-core",]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "mirai"
+version = "0.1.0"
+description = "AI-powered personal assistant"
+authors = [ "abdelmalek0 <djamaa.abdelmalek98@gmail.com>",]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
